@@ -320,7 +320,8 @@ img {
 
 /* ── Foto a la derecha ── */
 .home__image {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   height: 320px;
   border-radius: 12px;
   overflow: hidden;
@@ -358,6 +359,25 @@ img {
   background-size: 30px 30px;
   opacity: 0.9;
   border-radius: 16px;
+  /* Que no se salga de la pantalla */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .home__container {
+    grid-template-columns: 1fr; /* una sola columna en móvil */
+    justify-items: center;
+  }
+
+  .home__image-wrapper {
+    padding: 15px;
+  }
+
+  .home__image {
+    width: 220px;
+    height: 280px;
+  }
 }
 /*=============== BUTTON ===============*/
 
