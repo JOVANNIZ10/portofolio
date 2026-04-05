@@ -449,9 +449,7 @@ img {
 }
 
 .about__data{
-  display:flex;
-  flex-direction: column;
-  gap:1.5rem;
+  
 }
 
 /*=============== PROJECTS ===============*/
