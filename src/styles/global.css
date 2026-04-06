@@ -400,7 +400,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .home {
-    height: 105vh;
+    height: 110vh;
   }
   .home__container {
     grid-template-columns: 1fr; /* una sola columna en móvil */
