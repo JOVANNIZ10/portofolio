@@ -35,22 +35,7 @@ import Analytics from '@vercel/analytics/astro'
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="/src/js/main.js"></script>
-    <script is:inline>
-  window.addEventListener('load', function() {
-    new Swiper('.projects__swiper', {
-      loop: true,
-      spaceBetween: 24,
-      slidesPerView: 'auto',
-      grabCursor: true,
-      speed: 600,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  });
-</script>
+    <script is: inline src="/js/swiper-bundle.min.js"></script>
+    <script is: inline src="/js/main.js"></script>
   </body>
 </html>

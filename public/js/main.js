@@ -30,7 +30,18 @@ animate(chars2,{
 })*/
 
 /*=============== SWIPER PROJECTS ===============*/
+const swiperProjects = new Swiper('.projects__container .projects__swiper', {
 
+  loop: true,
+  spaceBetween: 24,
+  slidesPerView: 'auto',
+  grabCursor: true,
+  speed: 600,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
 
 /*=============== WORK TABS ===============*/
 
