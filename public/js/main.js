@@ -46,6 +46,15 @@ const swiperProjects = new Swiper('.projects__swiper', {
   autoplay:{
     delay: 3000,
     disableOnInteraction: false,
+  },
+
+   breakpoints: {           
+    768: {
+      slidesPerView: 2,
+    },
+    1150: {
+      slidesPerView: 3,
+    }
   }
 });
 
